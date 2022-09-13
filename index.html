@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!----- NAV-BAR ----->
+  <nav class="container navbar navbar-expand-lg navbar-light py-4">
+    <a class="navbar-item" href="#">
+      <p class="header-font-logo">LiveStrong</p>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">
+            <p class="header-font">Home</p><span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#stories">
+            <p class="header-font">Stories</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#spotlight">
+            <p class="header-font">Spotlight</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">
+            <p class="header-font">About</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">
+            <p class="header-font">Contact</p>
+          </a>
+        </li>
+    </div>
+  </nav>
+  <!-----Carousal----->
+  <section id="home">
+    <div id="carouselExampleIndicators z" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/home-1.webp" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/home-2.webp" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/home-3.webp" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <!--- Carousal-end --->
+
+  <br><br>
+  <section class="container">
+    <b class="text-dark" style="font-family: FuturaPtDemi,Trebuchet MS,sans-serif;font-size:x-large;">New Stories</b>
+  </section>
+  <!--- Stories-Block --->
+  <section id="stories">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card card-class">
+          <div class="card-body">
+            <img class="image-story-1 img-fluid" src="images/stories-1.webp">
+            <h5 class="stories-1-title card-title">FITNESS</h5>
+            <p class="stories-1-text card-text">Try This One Glute Bridge Variation for a Stronger Hip</p>
+            <p class="stories-1-title card-title">By Bojana Galic</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="row">
+          <div class="col">
+            <div class="card card-class">
+              <div class="card-body">
+                <img class="img-fluid" src="images/stories-2.webp">
+                <h5 class="stories-1-title card-title">FITNESS</h5>
+                <p class="stories-1-text card-text">The 13 Best Sweatpants for Every Body and Workout, According to
+                  Trainers</p>
+                <p class="stories-1-title card-title">By Amy Schilnger,NASM-CPT</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-class">
+              <div class="card-body">
+                <img class="img-fluid" src="images/stories-3.webp">
+                <h5 class="stories-1-title card-title">HEALTH</h5>
+                <p class="stories-1-text card-text">Do You Actually Have to Flip Your Mattress?</p>
+                <p class="stories-1-title card-title">By Marygrace Taylor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card card-class">
+              <div class="card-body">
+                <img class="img-fluid" src="images/stories-4.webp">
+                <h5 class="stories-1-title card-title">NUTRITION</h5>
+                <p class="stories-1-text card-text">6 Low-Carb Cereals Dietitians Recommand for a Filling Breakfast</p>
+                <p class="stories-1-title card-title">By Joanna Foley</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-class">
+              <div class="card-body">
+                <img class="img-fluid" src="images/stories-5.webp">
+                <h5 class="stories-1-title card-title">FITNESS</h5>
+                <p class="stories-1-text card-text">The Push-Up Modification That's Safer and More Effective Than Knee
+                  Push-Ups</p>
+                <p class="stories-1-title card-title">By Amy Marturana Winderl</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- Stories-block-End -->
+    <section id="spotlight" class="container">
+      <b class="text-dark" style="font-family: FuturaPtDemi,Trebuchet MS,sans-serif;font-size:x-large;">Spotlight</b>
+    </section>
+
+    <!---Spotlight-Block --->
+
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="card card-class">
+          <div class="card-body">
+            <div class="spotlight-img bg-image hover-zoom">
+              <a href="#"><img class="img-fluid" src="images/spotlight-1.webp "></a>
+              <b class="spotlight-title card-title">What Happens When...</b>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card card-class">
+          <div class="card-body">
+            <div class="bg-image hover-zoom">
+              <a href="#"><img class="img-fluid" src="images/spotlight-2.webp"></a>
+              <b class="spotlight-title card-title">Our Challanges</b>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card card-class">
+          <div class="card-body">
+            <div class="bg-image hover-zoom">
+              <a href="#"><img class="img-fluid" src="images/spotlight-3.webp"></a>
+              <b class="spotlight-title card-title">20-Minute Workouts</b>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card card-class">
+          <div class="card-body">
+            <div class="bg-image hover-zoom">
+              <a href="#"> <img class="img-fluid" src="images/spotlight-4.webp"></a>
+              <b class="spotlight-title card-title">Your Stay-Healthy Toolkit</b>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!---Spotlight-End --->
+  <br><br><br>
+  <!-- About-block -->
+  <section id="about" class="container">
+    <b class="text-dark" style="font-family: FuturaPtDemi,Trebuchet MS,sans-serif;font-size:x-large;">About</b>
+  </section><br>
+
+    <div class="row blue-box-block">
+      <div class="col-sm-6">
+        <div class="card blue-box">
+          <div class="card-body">
+            <h5 class="card-title blue-box-text-head">We're committed to your wellbeing.</h5>
+            <p class="card-text blue-box-text">We work hard to provide the most up-to-date, accurate and authoritative
+              health and wellness knowledge so you can live your best life.</p>
+            <a href="#">
+              <p class="card-link"> About us</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card card-class">
+          <div class="card-body">
+            <div class="white-box">
+              <b class="spotlight-title">Editorial Values</b>
+              <p class="white-box-para">We hold our articles to the highest editorial standards by conducting original
+                reporting, citing recent and relevant research and providing full context to ensure readers have all the
+                facts they need to make important decisions about their health.</p>
+              <b class="spotlight-title">Expert Reviews</b>
+              <p class="white-box-para"> In a world of widespread misinformation, we believe in the power of trustworthy
+                expertise. Our articles are reviewed by doctors, nurses, registered dietitians, certified personal
+                trainers and other qualified experts.</p>
+              <p class="white-box-link"> Meet Our Experts</p>
+              <b class="spotlight-title">Verifying Facts</b>
+              <p class="white-box-para">Accuracy is our top priority. Articles with our "Fact Checked" label cite only
+                the most reliable sources of information that our editorial team has carefully vetted.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- About-block-end -->
+
+  <!--Contact--->
+  <section class="pd-5 bg-light" id="contact">
+    <div class="container">
+      <h1 class="text-center py-3 font-weight-bold" style="font-size:60px;">Contact Us</h1>
+      <form class="row g-3">
+        <div class="col-md-6 py-3">
+          <label for="validationDefault01" class="form-label">Name</label>
+          <input type="text" class="form-control" id="validationDefault01" placeholder="Name" required>
+        </div>
+        <div class="col-md-6 py-3">
+          <label for="validationDefault02" class="form-label">Place</label>
+          <input type="text" class="form-control" id="validationDefault02" placeholder="Place" required>
+        </div>
+
+        <div class="col-md-6 py-3">
+          <label for="validationDefault03" class="form-label">Email</label>
+          <input type="email" class="form-control" id="validationDefault03" placeholder="Email" required>
+        </div>
+        <div class="col-md-6 py-3">
+          <label for="validationDefault03" class="form-label">Mobile</label>
+          <input type="tel" class="form-control" id="validationDefault03" placeholder="Mobile" required>
+        </div>
+        <div class="form-group col-md-12 py-3">
+          <label for="inputmessage">Message</label>
+          <textarea class="form-control" cols="30" rows="5" placeholder="Type your message here..." required></textarea>
+        </div>
+
+
+        <div class="text-center col-12">
+          <button class="btn text-center" style="width: 100%;" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

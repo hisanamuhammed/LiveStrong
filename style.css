@@ -1,0 +1,118 @@
+.header-font-logo {
+    color: black;
+    font-variant-ligatures: none;
+    font-family: Arial,sans-serif;
+    font-size: 1.5em;
+}
+.header-font{
+    color: #2e2e30;
+    font-size: 14px;
+    font-family: FuturaPtDemi,Trebuchet MS,sans-serif;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: 0;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+.stories {
+    display: flex;
+    height: auto;
+}
+.stories-1-title {
+    margin-top: 17px;
+    color: #606b71;
+    font-size: 12px;
+    font-family: ProximaNovaSemiBold,Arial,sans-serif;
+    font-style: normal;
+    line-height: 18px;
+    letter-spacing: 0;
+    --no-rule: "yet";
+}
+.stories-1-text {
+    color: #2e2e30;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: FuturaPtDemi,Trebuchet MS,sans-serif;
+    font-style: normal;
+    line-height: 26px;
+    letter-spacing: 0;
+    --no-rule: "yet";
+}
+.card-class {
+    border-color: #fff;
+}
+@media only screen and (min-width:1224px) {
+    .image-story-1 {
+        height: 635px;
+    }
+}
+.spotlight-title{
+    width: 80%;
+    color: #2e2e30;
+    font-size: 22px;
+    font-family: FuturaPtDemi,Trebuchet MS,sans-serif;
+    line-height: 28px;
+}
+.spotlight-title:hover {
+    color: #505050;
+}
+.card-link {
+    text-align:center;
+    color: #fff;
+    text-decoration: underline;
+}
+.blue-box-block {
+    display: flex;
+}
+.blue-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 -20px 40px;
+    padding: 30px 20px;
+    background: #1d4a80;
+    
+}
+.blue-box-text-head {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: FuturaPtDemi,Trebuchet MS,sans-serif;
+    line-height: 60px;
+    text-align: center;
+}
+.blue-box-text{
+    /* display: flex;
+    flex-direction: column; */
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    background-color: #1d4a80;
+    font-size: 20px;
+    font-family: FuturaPtDemi,Trebuchet MS,sans-serif;
+    line-height: 60px;
+    text-align: center;
+}
+
+.white-box-link {
+    color: #2e2e30;
+    text-decoration: underline;   
+}
+.white-box-link:hover {
+    cursor: pointer;
+}
+.white-box-para{
+    color: #505050;
+    font-size: 18px;
+    font-family: ProximaNovaRegular,Arial,sans-serif;
+    line-height: 29px;
+}
+.btn{
+    background-color:  #2e2e30;;
+    color: #fff;
+}
+.btn :hover{
+    color: #fff;
+}
